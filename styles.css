@@ -86,3 +86,24 @@ body{
   font-size: 14px;
   margin: 8px auto 0;
 }
+
+.gray-box{
+    background-color: gray;
+    padding: 70px 0;
+    margin: 5px;
+}
+
+.quote-container{
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-family: italic;
+    font-weight: 300;
+}
+
+.author{
+    font-family: italic;
+    font-size: 24px;
+}
