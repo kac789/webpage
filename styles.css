@@ -68,6 +68,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
 .card-box{
@@ -80,6 +81,7 @@ body{
 .card{
     text-align: center;
 }
+
 .card-text {
   max-width: 180px;
   color: #555;
@@ -91,6 +93,7 @@ body{
     background-color: gray;
     padding: 70px 0;
     margin: 5px;
+    margin-bottom: 50px;
 }
 
 .quote-container{
@@ -106,4 +109,49 @@ body{
 .author{
     font-family: italic;
     font-size: 24px;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 50px;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+
+
+.action{
+    font-size: 36px;
+}
+
+.click{
+    font-size: 24px;
+}
+
+.blue-box .cta-button{
+    flex-shrink: 0;
+    font-family: inherit;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+
+.footer-text{
+
 }
